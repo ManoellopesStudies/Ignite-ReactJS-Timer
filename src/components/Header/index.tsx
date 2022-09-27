@@ -8,7 +8,7 @@ export function Header() {
     <HeaderContainer>
       <img src={Logo} alt="" />
       <nav>
-        <NavLink to="" title="Home">
+        <NavLink to="/" end title="Home">
           <Timer size={24} />
         </NavLink>
         <NavLink to="/history" title="History">
